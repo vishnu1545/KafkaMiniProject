@@ -1,0 +1,9 @@
+{
+"id": 555,
+"name":"Vishnu",
+"email": "vishnuagarwal1545@gmail.com",
+"phone": 9884213512,
+"empId" : 1001,
+"company" : "Infosys",
+"issues":["cough","fever"]
+}
