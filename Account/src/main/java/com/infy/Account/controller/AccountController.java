@@ -19,6 +19,5 @@ public class AccountController {
 	@RequestMapping(value = "/employee/{empId}", method = RequestMethod.GET)
 	public EmployeeDTO getCustomerCallDetails(@PathVariable Integer empId) {
 		return service.getEmployee(empId);
-		
 	}
 }
