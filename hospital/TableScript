@@ -1,0 +1,24 @@
+
+drop table employee_data;
+
+create table employee_data(
+empId Integer primary Key,
+empName varchar(50) not null,
+salary integer not null);
+
+insert into employee_data values(1001,'Vishnu',50000);
+insert into employee_data values(1002,'Anuj',60000);
+insert into employee_data values(1003,'Pragya',70000);
+insert into employee_data values(1004,'Vinay',40000);
+
+drop table health_data;
+
+create table health_data(
+empId integer primary key,
+patientId integer not null,
+name varchar(50) not null,
+email varchar(50) not null,
+issues varchar(50) not null,
+company varchar(50) not null,
+phone long not null,
+insurance double not null );
